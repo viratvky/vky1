@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>Parcel Sandbox</title>
+    <title>Brick Breaker</title>
     <meta charset="UTF-8" />
     <style>
-      #screen {
+      #gameScreen {
         border: 1px solid black;
       }
       img {
@@ -14,12 +13,10 @@
   </head>
 
   <body>
-    <img
-      id="img_ball"
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSsH1Fznfkp1Ls3Tu2shFuNYG03odB-RsgXWZQMcg8QqXmw-GGo>"
-    />
+    <img id="img_ball" src="assert/images/ball.png" />
+    <img id="img_brick" src="assert/images/brick.png" />
 
-    <canvas id="screen" width="800" height="600"> </canvas>
+    <canvas id="gameScreen" width="800" height="600"></canvas>
 
     <script src="src/index.js"></script>
   </body>
